@@ -1,5 +1,3 @@
-require 'pry'
-
 class LinkedList
   def initialize
     @head = nil
@@ -47,7 +45,6 @@ class LinkedList
     node
   end
 end
-
 
 class Node
   attr_accessor :data, :next
