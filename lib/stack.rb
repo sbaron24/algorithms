@@ -32,6 +32,6 @@ class Stack
   end
 
   def maxed?
-    @index == 1
+    @index == 1000
   end
 end
